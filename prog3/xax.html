@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8">
+	<style>
+         #legend {position: absolute;top: 0;right: 0;width: 800px;} .legend-color {width: 30px;height: 30px;} td {border: 1px solid black; font-size: 14px; padding-left: 5px;}
+    </style>
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+	<script src="class.js"></script>
+	<script type="text/javascript" src="xax.js"></script>
+	
+
+    <br>
+    <table id="legend">
+        <tr>
+            <td class="legend-color">Գույն</td>
+            <td>Անվանում</td>
+            <td>Շարժվում է</td>
+            <td>Ուտում է</td>
+            <td>Բազմանում է</td>
+            <td>Սատկում է</td>
+            <td>Ստեղծում է</td>
+        </tr>
+
+        <tr>
+            <td class="legend-color" style="background-color:#200000"></td>
+            <td>Հողատարածք</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="legend-color" style="background-color:orange"></td>
+            <td>Գազար</td>
+            <td></td>
+            <td></td>
+            <td>Մոտակա 8 հողատարածքում, 4 տակտը մեկ</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="legend-color" style="background-color:white"></td>
+            <td>Նապաստակ</td>
+            <td>Մոտակա 8 հողատարածքներում, էներգիան քչանում է 1֊ով</td>
+            <td>Գազարներին, մոտակա 8 հողատարածքներում, ուտելիս էներգիան ավելանում է 1֊ով</td>
+            <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
+            <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="legend-color" style="background-color:red"></td>
+            <td>Գիշատիչ</td>
+            <td>Մոտակա 8 հողատարածքներում, էներգիան քչանում է 1֊ով</td>
+            <td>Նապաստակներին, մոտակա 8 հողատարածքներում, ուտելիս էներգիան ավելանում է 1֊ով</td>
+            <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
+            <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="legend-color" style="background-color:gray"></td>
+            <td>Գյուղացի</td>
+            <td>Մոտակա 8 հողատարածքներում, բացի գազարներից,որպեսզի չտրորի</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Գազար, մոտակա 8 վանդակներից մեկում</td>
+        </tr>
+        <tr>
+            <td class="legend-color" style="background-color:#33aa00"></td>
+            <td>Գյուղի որսորդ</td>
+            <td>Մոտակա 8 հողատարածքներում</td>
+            <td>Գիշատիչներին, մոտակա 8 հողատարածքներում</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>   
+    </table>
+
+
+	
+</body>
+</html>
